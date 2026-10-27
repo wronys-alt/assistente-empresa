@@ -1,0 +1,23 @@
+{
+  "extraKnownMarketplaces": {
+    "anthropic-agent-skills": {
+      "source": { "source": "github", "repo": "anthropics/skills" },
+      "autoUpdate": true
+    },
+    "knowledge-work-plugins": {
+      "source": { "source": "github", "repo": "anthropics/knowledge-work-plugins" },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "document-skills@anthropic-agent-skills": true,
+    "marketing@knowledge-work-plugins": true,
+    "small-business@knowledge-work-plugins": true
+  },
+  "permissions": {
+    "deny": [
+      "Edit(./documentos/**)",
+      "Bash(git push *)"
+    ]
+  }
+}

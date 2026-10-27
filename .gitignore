@@ -1,0 +1,14 @@
+# Documentos originais da empresa: confidenciais e grandes, nunca vão para o Git
+documentos/*
+!documentos/LEIA-ME.md
+
+# Arquivos pessoais e locais
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Sistema (macOS)
+.DS_Store
+
+# Arquivos temporários de conversão
+*.tmp
+~$*
